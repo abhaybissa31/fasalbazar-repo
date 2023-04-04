@@ -1,0 +1,24 @@
+body{
+	background-color:lightblue;
+}
+
+table{
+
+	color:white;
+	overflow-y: scroll;
+	display: block;
+	/*width:40em;*/
+	height:24.5em;
+
+}
+
+
+
+tr:hover td {
+    background-color:rgb(221, 49, 37); 
+    color: white;
+}
+thead,td,tr{
+width:20em;
+
+}

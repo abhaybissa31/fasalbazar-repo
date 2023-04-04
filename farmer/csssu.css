@@ -1,0 +1,49 @@
+body{
+	background-image: url('webimg/subg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.title{
+	display: flex;
+	justify-content: center;
+	color: #ff5500;
+}
+
+.form1{
+	background-color:rgba(140, 70, 20, 0.66);
+	color: white;
+	height:35em;
+	
+}
+
+h2{
+	display: flex;
+	justify-content: center;
+	padding:8px;
+}
+input[type]{
+	padding:6px;
+	color: black;
+}
+.tb1{
+	position: relative;
+	left:15em;
+	
+}
+.tb2{
+	position: relative;
+	top:-24em;
+	left:45em;
+}
+
+.sb{
+background-color:rgba(140, 70, 20, 0.66);
+position:absolute;
+width:10em;
+left:45em;
+}
+table > tr,td{
+	padding:8px;
+}

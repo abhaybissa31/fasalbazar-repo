@@ -1,0 +1,64 @@
+body{
+	background-image: url('webimg/subg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.title{
+	display: flex;
+	justify-content: center;
+	color: #ff5500;
+}
+.form1{
+	display: flex;
+	justify-content: center;
+	background-color:rgba(140, 70, 20, 0.66); 
+	height:29em;
+	width: 30em; 
+}
+input[type]:not(#submit){
+	padding:6px;
+	color:black;
+}
+.table1{
+	position: relative;
+	top: 3em;
+	color: white;
+}
+.logh2{
+	font-size:32px;
+	position:relative;
+	top:1em;
+	color: white;
+ 	display: flex;
+ 	justify-content: center;
+}
+.sb{
+	display: flex;
+	justify-content: center;
+	position:relative;
+	top:4em;
+	width:12em;
+	/*font-size:10px;*/
+	padding:9px;
+	background-color:sandybrown;
+	border: none;	
+	color: white;
+	left:2.3em;
+}
+
+.hre1{
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	top:4.5em;
+	color: white;	
+}
+.hre2{
+	color: white;
+	display: flex;
+	position: relative;
+	top: -3em;
+	font-size: 1.357em;
+	justify-content: center;
+}

@@ -1,0 +1,134 @@
+
+
+form{
+	height:5em;
+	width: auto;
+}
+.content{
+	margin-top:85px;
+}
+.card{
+	/*max-width: 1000px;*/
+	width:71em;
+	height:12em;
+	position: relative;
+	left:-10px;
+	color: white;
+	/*border:0.2em solid black;*/
+	background-color: #05445E;
+	border-radius:25px;
+	  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cimg{
+	position: absolute;
+	top:2em;
+	left:1.2em;
+	width:12.5em;
+	border-radius:15px;
+}
+.heads{
+	margin-top: -0.5em;
+}
+
+.rhead{
+	position: relative;
+	left:9.7em;
+	bottom:-0.1em;
+	width:6.4em;
+}
+.radio{
+	background-color: white;
+	border: 0.18em solid black;
+	width:7em;
+	height:1.9em;
+	position: relative;
+	/*bottom:-1em;*/
+	left:12em;
+	/*padding:20px;*/
+}
+input[type="radio"]{
+  margin: 0px 5px 0px 0px;
+ 
+}
+.whead{
+	width:5.8em;
+	position: relative;
+	top:0.13em;
+}
+.weight>button,input{
+	border: none;
+}
+.weight{
+	position: relative;
+	left:23em;
+	width:7.2em;
+	bottom:3.9em;
+}
+.wi{
+	width:6.5em;
+}
+
+.box1{
+border: 0.18em solid black;
+width:6.86em;
+}
+.pri{
+	position: relative;
+	bottom:7.8em;
+	width:7em;
+	border: none;
+	left:33.3em;
+}
+input[type=text]:focus{
+  outline: none;
+	  box-shadow: none;
+}
+
+#fa{
+	background-color: white;
+	color: black;
+	padding:5px;
+}
+
+.box2{
+border: 0.18em solid black;
+width:6.2em;
+}
+
+.msp{
+	position: relative;
+	bottom:11.8em;
+	width:7.5em;
+	border: none;
+	left:43.3em;
+}
+.box3{
+	border: 0.18em solid black;
+	width:4.5em;
+	height:2em;
+}
+
+#price{
+		width:4.6em;
+}
+.mspkg{
+		position: relative;
+	bottom:15.8em;
+	width:7.5em;
+	border: none;
+	left:53em;
+}
+.box4{
+	border: 0.18em solid black;
+	width:4.5em;
+	height:2em;
+}
+.btn-primary{
+	position: relative;
+	bottom:17.7em;
+	border-radius:25px;
+	width:7em;
+	border: none;
+	left:60.5em;
+}

@@ -1,0 +1,20 @@
+body{
+	background-color:lightblue;
+}
+
+.container{
+	position: relative;
+	top:11em;
+}
+
+.container>div>div>h1{
+	color:#0A7029;
+}
+
+thead{
+	color:blue;
+	background-color:#FEDE00;
+}
+td{
+	font-weight: bolder;
+}

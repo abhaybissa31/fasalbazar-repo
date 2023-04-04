@@ -1,0 +1,93 @@
+
+
+#jimg{
+
+	/*background-blend-mode: luminosity;*/
+
+	background-image: url('webimg/jtron.jpg');
+
+	background-size: cover;
+
+	/*filter: blur(1px);*/
+
+	margin-top:55px;
+
+	height:28em;
+
+}
+
+.jheading{
+
+	/*margin-top:-69px;*/
+
+	color:white;
+
+	font-weight: bold;
+
+	/*background-color:white;*/
+
+	width:15em;
+
+	position:relative;
+
+}
+
+
+
+#jb{
+
+	position:relative;
+
+	background-color:black;
+
+	color:white;
+
+	float:right;
+
+	top:1em;
+
+	width:50%;
+
+	opacity:70%;
+
+	height:21em;
+
+	border-radius: 20px;
+
+	box-sizing: border-box;
+
+	font-weight:600;
+
+}
+
+
+
+.jtext{
+
+	margin:5px;
+
+	position: absolute;
+
+	bottom:-2px;
+
+	float: right;
+
+}
+.imgsr{
+
+	height:28px;
+
+	border-radius: 50%;
+
+	width: 33px;
+
+
+
+}
+
+td{
+
+	font-size:1em;
+
+    font-weight: bold;
+}

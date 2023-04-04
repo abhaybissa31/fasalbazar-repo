@@ -1,0 +1,130 @@
+
+.detailsr1{
+	display: flex;
+	
+	position: relative;
+	
+	top:6em;
+	
+	background-color:darkviolet;
+
+	align-items: center;
+    
+    justify-content: center;
+}
+
+#head{
+	position: relative;
+
+	font-size:30px;
+
+	font-weight: bolder;
+
+	color: white;
+
+	top:0.2em;
+}
+
+.squa{
+
+	position: relative;
+
+	top:8em;
+
+}
+
+.leftitem>img{
+
+	height:13em;
+
+	width:15.6em;
+}
+
+.row{
+
+	float: right;
+
+	bottom:16em;
+	width: 52em;
+
+	position: relative;
+}
+
+.col-3{
+
+	width:10em;
+	
+	padding:0;
+
+	position: relative;
+
+	top:3.5em;
+	
+}
+.squa{
+	height:49em;
+	border: 0.2em solid ;
+}
+
+#r3{
+	position: relative;
+	bottom:11em;
+	left:-1.5em;
+}
+
+.leftitem{
+	width:15.8em;
+}
+
+.ul{
+	font-size:1.3em;
+}
+textarea{
+	position: relative;
+	top:-6em;
+	left:-3.5em;
+	border:0.2em solid purple;
+	border-radius:20px;
+	font-weight: bolder;
+
+}
+
+table{
+	position: relative;
+	top:8em;
+	left:6em;
+
+}
+
+.col-5{
+	position:relative;
+	
+	left:-0.4em;
+}
+
+#r5{
+	position: relative;
+	/*display: inline;*/
+	top:-3.8em;
+	display: flex;
+	/*right:-7em;*/
+}
+
+#r6{
+	position: relative;
+	top:-2em;
+	display: flex;
+	justify-content: center;
+	right:5.8em;
+}
+button{
+	padding: 10px;
+	border-radius:25px;
+
+	width:7em;
+
+	border: none;
+}
+form{
+	width:60em;
+}

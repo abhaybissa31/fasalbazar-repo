@@ -1,0 +1,105 @@
+#topul>li{
+
+	padding:5px;
+
+	font-size:20px;
+
+}
+
+#bottomul>li{
+
+	padding:5px;
+
+	font-size:20px;
+
+}
+
+#jimg{
+
+	/*background-blend-mode: luminosity;*/
+
+	background-image: url('webimg/jtron.jpg');
+
+	background-size: cover;
+
+	/*filter: blur(1px);*/
+
+	margin-top:55px;
+
+	height:32em;
+
+}
+
+.jheading{
+
+	/*margin-top:-69px;*/
+
+	color:white;
+
+	font-weight: bold;
+
+	/*background-color:white;*/
+
+	width:15em;
+
+	position:relative;
+
+}
+
+
+
+#jb{
+
+	position:relative;
+
+	background-color:black;
+
+	color:white;
+
+	float:right;
+
+	top:1em;
+
+	width:50%;
+
+	opacity:70%;
+
+	height:21em;
+
+	border-radius: 20px;
+
+	box-sizing: border-box;
+
+	font-weight:600;
+
+}
+
+
+
+.jtext{
+
+	margin:5px;
+
+	position: absolute;
+
+	bottom:-2px;
+
+	float: right;
+
+}
+
+td,th{
+
+	font-weight: bold;
+
+	text-align: center;
+	
+	border-bottom: 0.1em solid black;
+
+}
+
+table{
+	border: 0.1em solid black;
+}
+
+
