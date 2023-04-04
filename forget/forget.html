@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forget-Password</title>
+
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
+
+
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="forget.css">
+</head>
+
+
+<body>
+      <div class="container"><!--Container class-->
+<div class="head"><!--Heading section ending-->
+
+  <hr>
+	<h1 class="title">FASAL BAZAR</h1>
+  <hr>  
+
+</div><!--Heading section ending-->
+
+
+<div class="form1 container"><!--forget Form Starting-->
+   
+	<form method="post" action="forget.php">
+	<p class="logh2">Forget Password</p>
+		<table class="table1"><!--table started-->
+	
+
+	
+
+	<!--unique id started-->
+	<tr>
+	<td><label for="uid">Unique ID</label><br>
+	<input type="text" name="uid" id="uid" size="30"  placeholder="यूनिक आईडी" required oninvalid="this.setCustomValidity('कृपया अपना यूनिक आईडी यहाँ रिक्त स्थान में भरें')"
+  oninput="this.setCustomValidity('')"></td>
+	</tr><!--unique id end-->
+
+	
+
+	<!--verification id number started-->
+	<tr>
+	<td><br><label for="vid">Verification Id Number</label><br>
+	<input type="text" name="vid" id="vid" size="30" placeholder="कृषि/पैन कार्ड पहचान संख्या" required oninvalid="this.setCustomValidity('उपयोगकर्ता की पुष्टि के लिए यहाँ रिक्त स्थान भरना अनिवार्य है')"
+  oninput="this.setCustomValidity('')"></td>
+  </tr>
+  <!--verification id number ended-->   
+
+
+</table><!-- table ending -->
+
+
+
+
+<!-- submit button starting  -->
+   <?php
+	<b><input type="submit" name="submit" value="Next->" id="submit" class="sb" style="font-size:16px;border-radius: 6px;"></b><br>
+	<?php>
+<!-- submit button ending -->
+</form>
+
+
+
+</body>
+</html>
